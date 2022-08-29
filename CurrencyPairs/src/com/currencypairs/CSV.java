@@ -20,8 +20,10 @@ public class CSV {
 			cps = cp[0]+cp[1];        // adding both currency pairs and storing in the csv file
 			c.add(new CurrencyPairs(cp [0],cp[1],cp[2],cp[3],cp[4],cp[5],cps));
 			Collections.sort(c,new CurrencyPairComparator());
+			System.out.println(c);
 		}
-		retriveData(c);	//retrive the data of the entered CurrencyPairs
+		//retrive the data of the entered CurrencyPairs
+		//retriveData(c);	
 		
 		//sort the data with respect to date
 		
